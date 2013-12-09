@@ -3,14 +3,14 @@ SQLAzureBackupFileSyncTool
 
 A small tool to sync sql azure backup files to local file system
 
-=Intention=
+Intention
 ========
 May SQL Azure backup strategies result in backup-files on windows azure blob storage. Having the backup in the cloud is not always preferable. Some customers may need to have them in the on-premise backup infrastructure, because of legal or other reasons.
 
 There are many tools to up-sync files from local file system to azure blob storage but not a single useful one to down-sync files from blobstorage to local file system. So I decided to write this small tool. It downloads new files from blobstorage. Furthermore it deletes files from local file system if they are not in blob storage anymore (due to retention policy).
 
 
-=Usage=
+Usage
 =====
 
 Step 1:
