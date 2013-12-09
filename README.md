@@ -18,7 +18,7 @@ Configure SQL Azure Backup by using one of the strategies described on:
 http://msdn.microsoft.com/en-us/library/windowsazure/jj650016.aspx
 
 Step 2:
-The result of your sql azure backup strategy should be a containter on azure blob storage where the backup files are stored. To download them on a scheduled, regular basis fork this repository and build it.
+The result of your sql azure backup strategy should be a containter on azure blob storage where the backup files are stored. To download them on a scheduled, regular basis clone this repository and build it.
 Copy the resulting binary files and the config file to your backup server. 
 
 Step 3:
