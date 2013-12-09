@@ -23,10 +23,10 @@ Copy the resulting binary files and the config file to your backup server.
 
 Step 3:
 There is SqlAzureBackupFileSyncTool.exe.config file with 4 settings:
-AccountName: Enter the blob storage account name
-AccountKey: Enter the blob storage account private key
-Container Name: Enter the name of the container (for example "sql-backups")
-LocalDirectory: Enter the path to the local backup directory (for example: "o:/sqlbackups")
+* AccountName: Enter the blob storage account name
+* AccountKey: Enter the blob storage account private key
+* Container Name: Enter the name of the container (for example "sql-backups")
+* LocalDirectory: Enter the path to the local backup directory (for example: "o:/sqlbackups")
 
 Step 4:
 Set up a windows scheduler task that executes the SqlAzureBackupFileSyncTool.exe (time it according to your SQL Azure backup schedule).
