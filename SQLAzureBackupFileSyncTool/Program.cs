@@ -1,9 +1,3 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="Program.cs" company="Selectron Systems AG">
-//   Copyright (c) Selectron Selectron Systems AG. All rights reserved.
-// </copyright>
-// --------------------------------------------------------------------------------------------------------------------
-
 namespace SQLAzureBackupFileSyncTool
 {
     using System;
